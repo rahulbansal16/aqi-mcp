@@ -1,0 +1,9 @@
+{
+  "name": "aqi-mcp",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  // No request logging: the privacy policy says we keep no logs.
+  "observability": { "enabled": false }
+}
